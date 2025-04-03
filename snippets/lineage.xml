@@ -57,7 +57,7 @@
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
+  <project path="hardware/xiaomi" name="Xiaomi-SM8475-Mondrian/hardware_xiaomi" remote="github" revision="A15_QPR2" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
 
   <!-- hardware CLO -->
@@ -115,10 +115,10 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-22.2-caf-sm8350" remote="lineage" />
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8350" remote="lineage" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,lahaina" revision="lineage-22.1-caf-sm8350" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="Xiaomi-SM8475-Mondrian/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" remote="github" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="Xiaomi-SM8475-Mondrian/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" remote="github" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8450" remote="lineage" />
+  <!-- <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8450" remote="lineage" /> -->
   <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8450" remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/media" name="android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="lineage-22.1-caf-sm8450" remote="lineage" />
